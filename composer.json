@@ -1,0 +1,25 @@
+{
+  "name": "twanhaverkamp/workflow-extension-bundle",
+  "description": "This bundle is an extension of the Symfony Workflow Component.",
+  "type": "symfony-bundle",
+  "homepage": "https://github.com/twanhaverkamp/workflow-extension-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Twan Haverkamp",
+      "homepage": "https://github.com/twanhaverkamp",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TwanHaverkamp\\WorkflowExtensionBundle\\": "/src"
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "symfony/framework-bundle": "^5.2",
+    "symfony/security-core": "^5.2",
+    "symfony/workflow": "^5.2"
+  }
+}
