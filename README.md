@@ -19,8 +19,8 @@ This bundle is available as [Composer] package.
 $ composer require twanhaverkamp/workflow-extension-bundle
 ```
 
-**Note:** If you don't use Symfony Flex, don't forget to add this bundle to the list of registered bundles in
-the `Kernel.php` file of your project.
+> ***Note:** If you don't use Symfony Flex, don't forget to add this bundle to the list of registered bundles in
+the `Kernel.php` file of your project.*
 
 ### 1. Workflow configuration
 Let's configure an e-commerce Workflow which consists the following steps:
@@ -59,9 +59,9 @@ workflows:
         ...
 ...
 ```
-**Note:** If you're not familiar with the [Workflow] component, I would recommend reading its documentation.
+> ***Note:** If you're not familiar with the [Workflow] component, I would recommend reading its documentation.*
 
-**Note:** Make sure your supported class implements `TwanHaverkamp\WorkflowExtensionBundle\Model\TransitionableInterface`.
+> ***Note:** Make sure your supported class implements `TwanHaverkamp\WorkflowExtensionBundle\Model\TransitionableInterface`.*
 
 ### 2. Controllers and Routes
 For every Transition we have configured we need to create a Controller which extends the
